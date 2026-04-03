@@ -89,7 +89,7 @@ func main() {
 		switch command {
 		case "quit", "exit":
 			fmt.Println()
-			fmt.Println("  ✦ Goodbye. Happy calculating!")
+			fmt.Println(" * E GO BE TILL LATER")
 			fmt.Println()
 			os.Exit(0)
 
@@ -120,7 +120,7 @@ func main() {
 				}
 			}
 
-			fmt.Printf("  ✦ Result: %s\n\n", formatResult(result))
+			fmt.Printf(" *Result: %s\n\n", formatResult(result))
 
 		default:
 			fmt.Printf("  ✗ Unknown command '%s'. Type 'help' to see available commands.\n\n", command)
